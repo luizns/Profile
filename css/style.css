@@ -1,0 +1,95 @@
+
+body {
+    background: -webkit-radial-gradient(circle,#4ec9f8 0,#2483b1 100%);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card{
+    /*
+    background-image: url("../assets/bg.jpg");
+    background-size: 100%;
+    background-position: center;
+    */
+    background: url(../assets/html.png) no-repeat,
+                url(../assets/git.png) no-repeat,
+                url(../assets/github.png) no-repeat,
+                url(../assets/css.png) no-repeat, 
+                url(../assets/java.png) no-repeat,
+                url(../assets/js.png) no-repeat,
+                url(../assets/aws.png) no-repeat,
+                url(../assets/typescript.png) no-repeat,
+                url(../assets/vscode.png) no-repeat;
+/*                       css     git   git hub     html    java  js  */
+    background-position: 5% 4.65%, 6% 97%,94% 97%, 95% 3%, 50% 55%, 50% 98%, 5% 40%, 95% 38%, 95% 22%;
+    background-size: 10%, 15%, 15%,10%, 40%,10%, 10%, 10%, 8% ;
+    background-color: #fff;
+    padding: 40px;
+    width: 300px;
+    border-radius: 20px;
+    margin: 30px 0;
+}
+.quadrado{
+    background-color:#4ec9f8;
+    border: 2px solid hsl(0deg 8% 28% / 13%);
+    position: relative;
+    bottom: 30px;
+    margin: 0px 105px;
+    padding: 10px 5px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin:20px auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+h1,h3, p {
+    text-align: center;
+    background-color:#fff;
+}
+
+p {
+    text-indent: 1.5em;
+    font-weight: 700;
+    text-align: justify;
+}
+
+ul {
+    cursor:default;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li a {
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    border: solid 1px #4ec9f8;
+    text-indent: 45px;
+    position: relative;
+}
+
+ul li a::before{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 25px;
+    text-indent: 0;
+    color: #4ec9f8;
+}
